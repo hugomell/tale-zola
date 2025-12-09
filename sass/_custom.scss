@@ -1,0 +1,40 @@
+/* --- Collapsible styling --- */
+.collapsible-btn {
+    background: #f3f3f3;
+    border: none;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background 0.2s;
+}
+
+.collapsible-btn:hover {
+    background: #e8e8e8;
+}
+
+.arrow {
+    transition: transform 0.2s;
+}
+
+.collapsible-code {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.25s ease-out;
+    border-left: 3px solid #ccc;
+    padding-left: 8px;
+}
+
+/* Code block styling (optional) */
+.collapsible-code pre {
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 6px 0;
+}
